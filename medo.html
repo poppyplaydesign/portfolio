@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medo — Prapti Verma</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .project-hero{padding:7rem 1.5rem 3rem;background:var(--bg-dark);color:#fff}
+    .project-hero .eyebrow{background:rgba(255,140,26,0.2);color:var(--poppy-orange)}
+    .project-hero h1{font-family:'Fredoka One',sans-serif;font-size:clamp(2.2rem,5vw,3.8rem);color:var(--lemon);margin:.5rem 0 .4rem}
+    .project-hero .brand-line{font-size:1rem;font-weight:600;color:#b0a0c8;letter-spacing:.06em}
+    .gallery{display:flex;flex-direction:column;gap:1.2rem}
+    .gallery-row{display:grid;gap:1.2rem}
+    .gallery-row.cols-1{grid-template-columns:1fr}
+    .gallery-row.cols-2{grid-template-columns:1fr 1fr}
+    .gallery-row.cols-3{grid-template-columns:1fr 1fr 1fr}
+    .gallery-placeholder{width:100%;aspect-ratio:16/9;border-radius:16px;background:var(--bg-lavender);border:2.5px dashed var(--poppy-purple);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;color:var(--text-mid);font-size:.82rem;font-weight:600}
+    .gallery-placeholder.tall{aspect-ratio:4/3}
+    .gallery-placeholder span{font-size:2.4rem}
+    .project-summary{max-width:720px;margin:3.5rem auto 0}
+    .project-summary p{font-size:1.08rem;color:var(--text-mid);line-height:1.85;margin-bottom:1.2rem}
+    .project-summary p strong{color:var(--text-dark)}
+    .project-content{padding:4rem 1.5rem 6rem;max-width:1080px;margin:0 auto}
+    .nav-bottom{display:flex;justify-content:space-between;align-items:center;padding:2rem 1.5rem;border-top:2px solid rgba(139,53,204,.1);max-width:1080px;margin:0 auto}
+    .nav-bottom a{text-decoration:none;font-weight:600;color:var(--poppy-purple);font-size:.92rem}
+    .nav-bottom a:hover{color:var(--poppy-orange)}
+    @media(max-width:640px){.gallery-row.cols-2,.gallery-row.cols-3{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<nav>
+  <a href="../index.html" class="nav-logo"><img src="../logo.png" alt="Poppy Play Design" /></a>
+  <ul class="nav-links">
+    <li><a href="../index.html#about">About</a></li>
+    <li><a href="../index.html#projects">Work</a></li>
+    <li><a href="../index.html#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+<div class="project-hero">
+  <div class="container">
+    <a href="../index.html#projects" class="back-link" style="color:rgba(255,255,255,0.6)">← All Projects</a>
+    <span class="eyebrow">Concept Project</span>
+    <h1>Medo — AR Layered Toy</h1>
+    <p class="brand-line">Augmented Reality · Concept Design</p>
+  </div>
+</div>
+<div class="project-content">
+  <div class="gallery">
+    <div class="gallery-row cols-1">
+      <div class="gallery-placeholder" style="aspect-ratio:21/9"><span>🦁</span><p>Hero image — medo-hero.jpg</p></div>
+    </div>
+    <div class="gallery-row cols-2">
+      <div class="gallery-placeholder tall"><span>📸</span><p>medo-detail-1.jpg</p></div>
+      <div class="gallery-placeholder tall"><span>📸</span><p>medo-detail-2.jpg</p></div>
+    </div>
+    <div class="gallery-row cols-3">
+      <div class="gallery-placeholder"><span>📸</span><p>medo-3.jpg</p></div>
+      <div class="gallery-placeholder"><span>📸</span><p>medo-4.jpg</p></div>
+      <div class="gallery-placeholder"><span>📸</span><p>medo-5.jpg</p></div>
+    </div>
+  </div>
+  <div class="project-summary">
+    <p><strong>Medo</strong> is a concept toy that bridges physical and digital play using augmented reality. The toy consists of a series of layered, semi-transparent physical components — when viewed through a companion app, each layer reveals an animated character world hidden within. As children add or remove layers, the AR scene changes, rewarding curiosity and exploration with surprising visual moments.</p>
+    <p>This project was a speculative design exploration into how physical toys could integrate AR in a way that felt magical rather than gimmicky. The design philosophy prioritised the physical toy as the primary experience, with AR serving as a reward layer rather than a dependency — ensuring the toy remained meaningful without a screen. Medo demonstrated strong potential for phygital product innovation in the preschool and early childhood categories.</p>
+  </div>
+</div>
+<div class="nav-bottom">
+  <a href="farmveer.html">← FarmVeer</a>
+  <a href="../index.html#projects">All Projects</a>
+  <a href="art-craft.html">Art & Craft →</a>
+</div>
+<footer>
+  <img src="../logo.png" alt="Poppy Play Design" class="footer-logo" />
+  <p>© 2026 Prapti Verma / Poppy Play Design · <a href="https://www.linkedin.com/in/praptiverma/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://www.behance.net/praptiv234" target="_blank" rel="noopener">Behance</a></p>
+</footer>
+</body>
+</html>
